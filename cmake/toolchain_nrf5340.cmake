@@ -17,3 +17,5 @@ set(LINKER_SCRIPT "${CMAKE_SOURCE_DIR}/boards/nrf5340/nrf5340.ld")
 
 # Linker flags (use INIT to avoid duplication)
 set(CMAKE_EXE_LINKER_FLAGS_INIT "-T${LINKER_SCRIPT}")
+
+set(CMAKE_OBJCOPY "arm-none-eabi-objcopy")

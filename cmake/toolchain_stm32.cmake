@@ -8,3 +8,5 @@ set(CMAKE_TRY_COMPILE_TARGET_TYPE STATIC_LIBRARY)
 
 set(CMAKE_C_FLAGS "-mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Wall -Wextra")
 set(CMAKE_CXX_FLAGS "-mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Wall -Wextra")
+
+set(CMAKE_OBJCOPY "arm-none-eabi-objcopy")

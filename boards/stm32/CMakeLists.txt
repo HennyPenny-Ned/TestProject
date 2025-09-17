@@ -14,3 +14,9 @@ target_link_options(stm32_app PRIVATE
     "-nostartfiles"
     "-nostdlib"
 )
+
+add_custom_command(TARGET stm32_app POST_BUILD
+    COMMAND ${CMAKE_OBJCOPY} -O binary ${CMAKE_CURRENT_BINARY_DIR}/stm32_app ${CMAKE_CURRENT_BINARY_DIR}/stm32_app.bin
+    COMMAND ${CMAKE_OBJCOPY} -O ihex ${CMAKE_CURRENT_BINARY_DIR}/stm32_app ${CMAKE_CURRENT_BINARY_DIR}/stm32_app.hex
+    COMMENT "Generating .bin and .hex files for STM32"
+)
