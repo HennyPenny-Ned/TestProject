@@ -1,8 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"C:/workspace/TestProject/build/cmake_install.cmake",
-		"C:/workspace/TestProject/build/boards/stm32/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

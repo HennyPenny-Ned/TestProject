@@ -1,5 +1,0 @@
-# ninja log v7
-39	66	7798011096238081	boards/stm32/CMakeFiles/stm32_app.dir/startup_stm32f4xx.s.obj	a8a50bfd72b24739
-23	74	7798011096075059	boards/stm32/CMakeFiles/stm32_app.dir/__/__/src/main.c.obj	9a408d5621d1f656
-32	78	7798011096158089	boards/stm32/CMakeFiles/stm32_app.dir/stm32_code.c.obj	b6cc1655e2b85317
-79	155	7798011096625499	boards/stm32/stm32_app	8b634a07c18a8f93
