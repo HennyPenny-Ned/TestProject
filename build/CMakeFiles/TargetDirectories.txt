@@ -1,0 +1,5 @@
+C:/workspace/TestProject/build/CMakeFiles/edit_cache.dir
+C:/workspace/TestProject/build/CMakeFiles/rebuild_cache.dir
+C:/workspace/TestProject/build/boards/stm32/CMakeFiles/stm32_app.dir
+C:/workspace/TestProject/build/boards/stm32/CMakeFiles/edit_cache.dir
+C:/workspace/TestProject/build/boards/stm32/CMakeFiles/rebuild_cache.dir
